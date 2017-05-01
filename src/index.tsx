@@ -2,8 +2,9 @@ import * as React from 'react';
 import * as ReactDOM from 'react-dom';
 import 'material-design-lite/material.min.css';
 import 'material-design-lite/material.min.js';
+import 'chartist/dist/chartist.min.css';
 
-import { Main } from './app/components/main';
+import { Main } from './app/components/main/main';
 
 import './index.scss';
 

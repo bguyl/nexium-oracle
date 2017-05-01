@@ -1,3 +1,17 @@
+$ColorBackground: #282a36;
+$ColorCurrentLine: #44475a;
+$ColorSelection: #44475a;
+$ColorForeground: #f8f8f2;
+$ColorComment: #6272a4;
+$ColorCyan: #8be9fd;
+$ColorGreen: #50fa7b;
+$ColorOrange: #ffb86c;
+$ColorPink: #ff79c6;
+$ColorPurple: #bd93f9;
+$ColorRed: #ff5555;
+$ColorYello: #f1fa8c;
+
 body {
-  background-color: lightgrey;
+  background-color: $ColorBackground;
+  color: $ColorForeground;
 }

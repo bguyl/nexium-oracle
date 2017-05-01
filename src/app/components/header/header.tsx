@@ -6,9 +6,6 @@ interface IHeaderProps {};
 interface IHeaderState {};
 
 export class Header extends React.Component<IHeaderProps, IHeaderState> {
-
-  helloWorld = 'H W !';
-
   render() {
     return (
       <div>
@@ -22,7 +19,6 @@ export class Header extends React.Component<IHeaderProps, IHeaderState> {
               <a className='mdl-navigation__link' href='https://www.poloniex.com/'>POLONIEX</a>
               <a className='mdl-navigation__link' href='https://beyond-the-void.slack.com/'>SLACK</a>
             </nav>
-
           </header>
         </div>
       </div>
