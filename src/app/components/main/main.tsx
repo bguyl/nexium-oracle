@@ -3,6 +3,7 @@ import * as React from 'react';
 import Wampy from 'wampy';
 import { Header } from '../header/header';
 import { MonthVolume } from '../month-volume/month-volume';
+import { Trollbox } from '../trollbox/trollbox';
 import './main.scss';
 
 interface IMainProps {};
@@ -27,6 +28,7 @@ export class Main extends React.Component<IMainProps, IMainState> {
         <Header/>
         <div className='container'>
           <MonthVolume/>
+          <Trollbox/>
         </div>
       </div>
     );
